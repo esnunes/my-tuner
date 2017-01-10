@@ -2,7 +2,11 @@
   "name": "my-tuner",
   "version": "1.0.0",
   "main": "./lib/index.js",
+  "bin": {
+    "my-tuner": "./bin/my-tuner.js"
+  },
   "scripts": {
+    "start": "./bin/my-tuner.js",
     "test": "ava"
   },
   "license": "MIT",
